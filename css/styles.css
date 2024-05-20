@@ -35,6 +35,7 @@ h1 {
 }
 .buttons-plus-or-minus{
     margin-top: 100px;
+    height: 900px;
 }
 .js-counter {
     margin-top: 20px;
@@ -44,7 +45,7 @@ h1 {
 
 
 body {
-    background-color: rgb(128, 128, 128);
+    background-color: #87cefa;
     padding-top: 0px;
     margin-top: 0px;
 }
