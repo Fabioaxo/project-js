@@ -1,19 +1,26 @@
 h1 {
     font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
 }
 .logo {
-    height: 100px;
-    width: 100xpx;
+    height: 80px;
+    width: 100px;
 }
 .title {
     margin-bottom: 40px;
-    margin-top: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 170px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .p {
     margin-left: 10px;
 }
 .paragraph {
     margin-left: 10px;
+    margin-right: 10px;
 }
 .button-functions {
     padding: 30px 60px 30px 60px; 
@@ -37,11 +44,13 @@ h1 {
 
 
 body {
-    background-color: lightskyblue;
-    background-repeat: no-repeat;
+    background-color: rgb(128, 128, 128);
+    padding-top: 0px;
+    margin-top: 0px;
 }
 .description {
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 20px;
     line-height: 30px;
+    font-weight: 700;
 }

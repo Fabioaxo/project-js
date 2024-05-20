@@ -6,8 +6,6 @@
         .innerHTML = `${total}`;
         callToMemories();
         }
-        document.querySelector('.js-counter')
-        .innerHTML = `${total}`;
         function increse() { let guess ='+1';
         if (guess === '+1'){
             total ++;
