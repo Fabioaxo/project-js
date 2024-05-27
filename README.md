@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Fabio</h1>
-<h3 align="center">>A passionate frontend developer from Italy</h3>
+<h3 align="center">A passionate frontend developer from Italy</h3>
 
 - 🔭 I’m currently working on [Journey-Counter](https://fabioaxo.github.io/project-js/
 
@@ -8,7 +8,7 @@
 <h2>This small application helps you take into account how many days are left until your trip and gives you some little advice as your departure approaches.</h2>
 
 <img class="img-fluid logo" src="img/Counter.png">
-<img class="img-fluid logo" src="img/Alert.png">
+<img class="img-fluid logo" src="img/Alert.png"><p>This is one of the warnings that you can find within the application ;)</p>
 
 
 
