@@ -5,10 +5,11 @@
 
 <img class="img-fluid logo" src="img/Head.png">
 
-<p>This small application helps you take into account how many days are left until your trip and gives you some little advice as your departure approaches.</p>
+<h2>This small application helps you take into account how many days are left until your trip and gives you some little advice as your departure approaches.</h2>
 
 <img class="img-fluid logo" src="img/Counter.png">
-![image](https://github.com/Fabioaxo/project-js/assets/164513952/6620e9f9-efea-4c2e-831e-1d15c23d5493)
+<img class="img-fluid logo" src="img/Alert.png">
+
 
 
 <h3 align="left">Languages and Tools:</h3>
