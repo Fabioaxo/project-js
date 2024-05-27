@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Fabio</h1>
 <h3 align="center">A passionate frontend developer from Italy</h3>
 
-- 🔭 I’m currently working on [Journey-Counter](https://fabioaxo.github.io/project-js/
+- 🔭 I’m currently working on [Journey-Counter]journey-counter.netlify.app
 
 <img class="img-fluid logo" src="img/Head.png">
 
