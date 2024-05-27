@@ -1,8 +1,7 @@
 <h1 align="center">Hi 👋, I'm Fabio</h1>
-<h3 align="center">A passionate frontend developer from Italy</h3>
+<h3 align="center"><img class="img-fluid logo" src="img/Logo.png">A passionate frontend developer from Italy</h3>
 
-- 🔭 I’m currently working on [Journey-Counter](https://fabioaxo.github.io/project-js/)
-<img class="img-fluid logo" src="img/Logo.png">
+- 🔭 I’m currently working on [Journey-Counter](https://fabioaxo.github.io/project-js/
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
