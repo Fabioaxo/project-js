@@ -2,6 +2,7 @@
 <h3 align="center">A passionate frontend developer from Italy</h3>
 
 - 🔭 I’m currently working on [Journey-Counter](https://fabioaxo.github.io/project-js/)
+<img class="img-fluid logo" src="img/Logo.png">
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
