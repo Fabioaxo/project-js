@@ -1,40 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <head>
-<title>Journey-Counter</title>
-<link rel="stylesheet" href="css/bootstrap.css">  
-<script src="js/index.js"></script>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    </head>
-    <body>
-    
-<div class="container-fluid title" style="background-image: url(img/background-fly.png);">
-    <div class="container-fluid">
-        <img class="img-fluid logo" src="img/Logo.png">
-        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="40" fill="currentColor" class="bi bi-airplane-fill" viewBox="0 0 16 16">
-            <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849"/>
-          </svg>
+<head>
+    <title>
+        Journey-Counter
+    </title>
+         <link rel="stylesheet" href="css/bootstrap.min.css">
+         <link rel="stylesheet" href="css/styles.css">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container-fluid title" style="background-image: url(img/background-fly.png);">
+         <div class="container-fluid">
+              <img class="img-fluid logo" src="img/Logo.png">
+              <img src="img/airplane-fill.svg" class="img-fluid" alt="airplane" width="45px">
+         </div>
+                <h1>Welcome to the Journey-Counter</h1>
     </div>
-    
-            <h1>Welcome to the Journey-Counter</h1>
-</div>
-<div class="container paragraph">
-            <p class="description">-Keep track of how many days are left until your trip and the things you need to go.</p>
-            <p class="description">-As the day of departure approaches, you will be reminded of simple things that you will surely have overlooked or forgotten.</p>
-            <p class="description">-Have a good trip!</p>
-            <button type="button" class="btn btn-secondary button-insert" onclick="insertNumber();">Let's Try!</button>
-</div>
-        <div class="container-fluid text-center buttons-plus-or-minus" style="background-image: url(img/clouds.png);">
-        <button type="button" class="btn btn-outline-primary button-functions" onclick="increse();">+1</button>
 
-        <p class="js-counter">0</p>
+    <div class="container paragraph">
+         <p class="description">-Keep track of how many days are left until your trip and the things you need to go.</p>
+         <p class="description">-As the day of departure approaches, you will be reminded of simple things that you will surely have overlooked or forgotten.</p>
+         <p class="description">-Have a good trip!</p>
+            <button type="button" class="btn btn-secondary button-insert" id="insertButton">Let's Try!</button>
+    </div>
 
-        <button type="button" class="btn btn-outline-danger button-functions" onclick="decrese();">-1</button>
-</div>
+    <div class="container-fluid text-center buttons-plus-or-minus" style="background-image: url(img/clouds.png);">
+    <div id="buttonContainer"></div>
+    </div>
 
-    </body>
+<script src="js/index.js" defer></script>
+</body>
 </html>
